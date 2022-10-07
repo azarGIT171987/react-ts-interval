@@ -32,7 +32,7 @@ export default function App() {
       <h1>{timer}</h1>
       <button onClick={toggle}>{active ? 'Pause' : 'Start'}</button>
       <button onClick={resetTimer}>Reset</button>
-      <p>Start or Pause the Timer</p>
+      <p>Start/Pause or Reset the Timer</p>
     </div>
   );
 }
